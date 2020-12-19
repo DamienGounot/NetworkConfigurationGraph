@@ -31,7 +31,6 @@ END{
             if(ASX_currenLine==TAB[k][2] && IPX_currenLine==TAB[k][3] && ASY_currenLine==TAB[k][0]&& IPY_currenLine==TAB[k][1])
             {
                 print ASX_currenLine " " ASY_currenLine
-                print TAB[k][0] " " TAB[k][2]
             }
         }
     }

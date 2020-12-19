@@ -27,7 +27,6 @@ END{
             if(IPsrc_currenLine == TAB[k][1] && IPdst_currenLine == TAB[k][0])
             {
                 print IPsrc_currenLine " " IPdst_currenLine
-                print IPdst_currenLine " " IPsrc_currenLine
             }
         }
     }
